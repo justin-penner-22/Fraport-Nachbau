@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=divice-width, initial-scale=1.0" />
+    <title>Website nachbau Fraport</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div id="topnav">
+      <div class="container-1">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="container">
+          <nav class="navbar-1">
+            <div class="dropdown-nav">
+              <a onclick="myFunktionNav" class="dropa">Konzern</a>
+              <div id="mydropdown-nav" class="dropdown-content-nav"></div>
+            </div>
+            <a href="">Geschaeftsfelder</a>
+            <a href="">Investoren</a>
+            <a href="">Nachhaltigkeit</a>
+            <a href="">Newsroom</a>
+            <a href=""><img src="images/search.svg" alt="search" /></a>
+          </nav>
+
+          <nav class="navbar-2">
+            <button id="button-meldungen">Meldung</button>
+            <div class="dropdown">
+              <button
+                id="dropdownButton"
+                onclick="dropdownInternational()"
+                class="dropdown"
+              >
+                International
+              </button>
+              <div id="mydropdown-international" class="dropdown-content">
+                <a href="">Bulgarien</a>
+                <a href="">China</a>
+                <a href="">Griechenland</a>
+                <a href="">Indien</a>
+                <a href="">Peru</a>
+                <a href="">Slowenien</a>
+                <a href="">Türkei</a>
+                <a href="">USA</a>
+              </div>
+            </div>
+
+            <a href="" class="flex-item">Karriere</a>
+            <a href=""
+              ><img src="images/globe%20(2).svg" alt="globe" /> Deutsch</a
+            >
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="container-1">
+        <h1 class="headline">
+          <span class="headline-gradients">Wir sind weltweit aktiv</span>
+          <span class="headline-gradients">und setzen Standards</span>
+        </h1>
+
+        <div class="header-image">
+          <img src="images/header.webp" alt="airport" />
+        </div>
+      </div>
+    </header>
+
+    <div id="info-slider">
+      <div class="info-slider-box">
+        <div class="info-slider-card">
+          <p class="info-slider-headline">Digitalisierung</p>
+          <h6>
+            <a href="" class="info-slider-text"> AI@Fraport </a>
+          </h6>
+        </div>
+        <div class="info-slider-card">
+          <p class="info-slider-headline">Betrieb</p>
+          <h6>
+            <a href="" class="info-slider-text">
+              Willkommen am Frankfurt CargoHub
+            </a>
+          </h6>
+        </div>
+        <div class="info-slider-card">
+          <p class="info-slider-headline">Fraport-Konzern</p>
+          <h6>
+            <a href="" class="info-slider-text"> 100 Jahre wie im Flug </a>
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-1">
+      <div class="fraport-info-container">
+        <div class="fraport-info-text">
+          <h3 class="info-heading">100 Jahre wie im Flug</h3>
+
+          <h4 class="info-sub-heading">Ein Jahrhundert ist vergangen</h4>
+
+          <h6 class="info-sub-sub-heading">
+            Die Fraport AG feiert das Jubiläum mit einer ganzjährigen Kampagne
+            rund um den Heimatsstandort Frankfurt Airport - ein Flughafen mit
+            Geschichte(n).
+          </h6>
+
+          <p class="info-text">
+            Die vergangenen 100 Jahre stecken voll spannender Geschichten,
+            Innovationen, Begengnungen, einiger Rückschläge, aber auch vieler
+            Meilensteine: vom ersten Flugfald am Hofgut Rebstock bis zum
+            künftigen hochmodernen Terminal 3 im Süden des aktuellen Flughafens.
+            Vom ersten Propellerflugzeug bis zur Ära der modernen Großraum-Jets.
+          </p>
+
+          <a href="">
+            <button class="button-theme">
+              www.100JahrewieimFlug.de
+              <img src="images/arrow.svg" alt="arrow" />
+            </button>
+          </a>
+        </div>
+
+        <a href="">
+          <div class="info-image-container">
+            <img
+              src="images/Fraport-feiert-100-Jahre.jpg"
+              alt="100-Jahre-Bild"
+              class="info-image"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="container-sections">
+      <div class="container-1">
+        <div class="contact-section-heading">
+          Auf der Suche nach Fluggastinformationen?
+        </div>
+        <div class="contact-section-box">
+          <h6 class="contact-section-text">
+            Ansprechpartner für Flugreisende sowei Auskünfte zu An- und Ablügen
+            finden Sie auf der Reisehomepage
+          </h6>
+        </div>
+        <button class="button-theme">
+          Hier entlang <img src="images/arrow.svg" alt="arrow" />
+        </button>
+      </div>
+    </div>
+
+    <div class="container-sections">
+      <div class="container-1">
+        <div class="sections-fraport-AG">
+          <h3 class="info-heading">Fraport AG</h3>
+          <p class="info-text">
+            Die Fraport AG gehört zu den internationel führenden Unternehmen im
+            Airport-Business und ist an 30 Flughäfen auf vier Kontinenten aktiv.
+            „Connecting the world with tomorrow“ heißt der Claim, dem sich der
+            Flughafenbetreiber in seinem Leitbild verpflichtet hat. Dieser
+            Anspruch gilt sowohl an Deutschlands größtem Luftverkehrsdrehkreuz
+            in Frankfurt, als auch weltweit an allen Standorten.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="aktie-section">
+      <div class="container-1">
+        <p class="fraport-ag-heading">48,42 €</p>
+        <p>XETRA (Fraport AG)</p>
+      </div>
+    </div>
+
+    <div class="klimaschutz-container">
+      <div class="container-1">
+        <div class="fraport-ag-section">
+          <div class="fraport-ag-box">
+            <p class="fraport-ag-heading">80.000</p>
+            <p class="fraport-ag-text">
+              Beschäftigte aus 114 Nationen sind am Flughafen beschäftigt
+            </p>
+          </div>
+          <div class="fraport-ag-box">
+            <p class="fraport-ag-heading">450</p>
+            <p class="fraport-ag-text">
+              Firmen sind am und für den Flughaffen tätig
+            </p>
+          </div>
+        </div>
+        <p class="headline-theme">
+          <span class="headline-gradients"
+            >Klare Strategie für den Klimaschutz</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="klimaziele-section">
+      <div class="container-1">
+        <div class="klimaziele-box">
+          <div>
+            <video width="700px" controls>
+              <source
+                src="Videos/Fraport_Klimaschutz_DE_preview_1080p.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div>
+            <h4 class="">
+              Bis 2030 wird die Fraport AG die CO2-Emissionen im Konzern<br />
+              und am Standort Frankfurt deutlich senken.
+            </h4>
+            <strong class="info-text">
+              Das Ziel: Der Gesamtkonzern verringert die Emissionen auf 95.000
+              Tonnen CO2, in Frankfurt auf 50.000 Tonnen<br />
+              pro Jahr.
+            </strong>
+            <p class="info-text">
+              Damit orientiert sich Fraport für die Konzernflughäfen an den
+              nationalen Zielen der jeweiligen Staaten. Mit<br />
+              zahlreichen emissionsmindernden Projekten hat es die Fraport AG
+              trotz stetig steigendem Energiebedarf<br />
+              geschafft, den CO2-Ausstoß am Flughafen Frankfurt seit 1990, dem
+              Basisjahr des internationalen<br />
+              Klimaschutzabkommens, um 50 Prozent zu reduzieren.
+            </p>
+            <strong class="info-text">
+              Bis 2045 sollen die CO2-Emissionen konzernweit auf Null sinken.<br />
+            </strong>
+            <button class="button-theme">
+              Klimaschutz <img src="images/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="karriere-section">
+      <div class="container-1">
+        <div class="karriere-heading">
+          <p class="headline-theme">
+            <span class="headline-gradients"> Karriere </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sections">
+      <div class="jobangebote-section">
+        <div class="container-1">
+          <div class="jobangebote-box">
+            <div>
+              <h3 class="info-heading">Welt der Möglichkeiten</h3>
+              <p class="info-text">
+                Jetzt die vielfältigen Jobangebote bei Fraport entdecken.
+              </p>
+            </div>
+            <div>
+              <button class="button-theme">
+                Jobbörse <img src="images/arrow.svg" alt="arrow" />
+              </button>
+              <button class="button-theme-white">
+                Fraport Job Terminal
+                <img src="images/arrow-blue.svg" alt="arrow-blue" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-1">
+        <div class="footer-container-1" onclick="dropdownContact()">
+          <div class="dropdown-contact">
+            <button class="footer-dropdown">Ansprechpartner</button>
+            <div class="footer-container-2" id="mydropdown-contact">
+              <div class="footer-list-text">
+                <p>Fraport AG<br />Frankfurt Airport Services Worldwide</p>
+                <p>60547 Frankfurt am Main</p>
+                <a href="" class="footer-links">Anfahrtsbeschreibung</a>
+              </div>
+              <div class="footer-list-text">
+                <p>
+                  <strong>Fragen, Lob, Kritik und Anregungen:</strong><br />
+                  <a href="" class="footer-links">01806 372-4636*</a>
+                  <a href="" class="footer-links">Kontaktformular</a>
+                </p>
+
+                <p>
+                  *20 Cent pro Anruf aus dem deutschen Festnetz,<br />
+                  maximal 50 Cent aus dem Mobilfunknetz
+                </p>
+              </div>
+              <div class="footer-list-text">
+                <p>
+                  <strong>Mailadresse für Feedback:</strong><br />
+                  <a href="" class="footer-links">E-Mail</a>
+                </p>
+                <p>
+                  <strong>Mailadresse für Passagier-Informationen:</strong
+                  ><br />
+                  <a href="" class="footer-links">E-Mail</a>
+                </p>
+              </div>
+              <div class="footer-list-text">
+                <p>
+                  <strong>Fluglärm und Maßnahmenprogramme:</strong><br />
+                  <a href="" class="footer-links"
+                    >Kontaktformulare zum Themenbereich
+                  </a>
+                </p>
+                <p>
+                  <strong>Medizinische Anfragen:</strong><br />
+                  <a href="" class="footer-links">Kontakt zum Medical Center</a>
+                  (für Reisende und<br />
+                  Beschäftige)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-container-2">
+          <div>
+            <h5 class="footer-list-heading">Fraport Sites</h5>
+            <ul class="footer-list-points">
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Konzern</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Geschäftsfelder</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Investoren</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Nachhaltigkeit</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="footer-list-heading">Aktuell</h5>
+            <ul class="footer-list-points">
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Newsroom</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Frankfurt Airport</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Karriere bei Fraport</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="footer-list-heading">Service</h5>
+            <ul class="footer-list-points">
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Impressum</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Datenschutz</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links">Disclaimer</a>
+              </li>
+              <li class="footer-list-text">
+                <a href="" class="footer-links"
+                  >Richtlinien und Zahlungsbedingungen</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="footer-list-heading">Social Media</h5>
+            <ul class="footer-list-points">
+              <li class="footer-list-text">Frankfurt Airport</li>
+              <li class="footer-list-text-icons">
+                <a class="footer-links-icons" href=""
+                  ><img src="images/Facebood-icon.svg" alt="facebook-icon"
+                /></a>
+                <a class="footer-links-icons" href=""
+                  ><img src="images/instagram-icon.svg" alt="instagram-icon"
+                /></a>
+                <a class="footer-links-icons" href=""
+                  ><img src="images/twitter-icon.svg" alt="twitter-icon"
+                /></a>
+                <a class="footer-links-icons" href=""
+                  ><img src="images/youtube-icon.svg" alt="youtube-icon"
+                /></a>
+                <a class="footer-links-icons" href=""
+                  ><img src="images/linkedin-icon.svg" alt="linkedin-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-container-3">
+          ©2004-2024 Fraport AG Frankfurt Airport Services Worldwide
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
